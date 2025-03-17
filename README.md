@@ -1,8 +1,8 @@
-# Basic C++ Project
+# Proyecto Básico en C++
 
-This is a simple C++ project that demonstrates the structure of a basic application using utility functions.
+Este es un proyecto simple en C++ que demuestra la estructura de una aplicación básica utilizando funciones de utilidad.
 
-## Project Structure
+## Estructura del Proyecto
 
 ```
 basic-cpp-project
@@ -15,31 +15,31 @@ basic-cpp-project
 └── README.md
 ```
 
-## Files Description
+## Descripción de Archivos
 
-- **src/main.cpp**: The entry point of the application. It initializes the program and calls functions from the `utils` module.
-- **src/utils.cpp**: Implements utility functions declared in the `utils.h` header file.
-- **include/utils.h**: Declares the utility functions that are implemented in `utils.cpp`.
-- **Makefile**: Contains the build instructions for the project.
+- **src/main.cpp**: El punto de entrada de la aplicación. Inicializa el programa y llama a funciones del módulo `utils`.
+- **src/utils.cpp**: Implementa funciones de utilidad declaradas en el archivo de encabezado `utils.h`.
+- **include/utils.h**: Declara las funciones de utilidad que se implementan en `utils.cpp`.
+- **Makefile**: Contiene las instrucciones de compilación para el proyecto.
 
-## Build Instructions
+## Instrucciones de Compilación
 
-To build the project, navigate to the project directory and run the following command:
+Para compilar el proyecto, navega al directorio del proyecto y ejecuta el siguiente comando:
 
 ```
 make
 ```
 
-This will compile the source files and create the executable.
+Esto compilará los archivos fuente y creará el ejecutable.
 
-## Running the Application
+## Ejecutar la Aplicación
 
-After building the project, you can run the application with the following command:
+Después de compilar el proyecto, puedes ejecutar la aplicación con el siguiente comando:
 
 ```
-./main
+./app
 ```
 
-## License
+## Licencia
 
-This project is open source and available under the MIT License.
+Este proyecto es de código abierto y está disponible bajo la Licencia MIT.
