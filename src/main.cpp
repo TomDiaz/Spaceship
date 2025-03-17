@@ -5,7 +5,7 @@
 using namespace sf;
 
 int main() {
-    RenderWindow window(VideoMode(640, 480), "SFML window");
+    RenderWindow window(VideoMode(640, 480), "Spaceship");
 
     while (window.isOpen()) {
         Event event;
